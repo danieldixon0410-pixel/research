@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Niche Briefing — cross-asset volatility &amp; sentiment</title>
+<meta name="description" content="A 9-asset decision brief with a volatility/sentiment matrix, what it can support, and explicit limits.">
+<style>
+:root { --ink:#17211b; --muted:#5d6b62; --paper:#fbfaf6; --line:#d9ded6; --accent:#155c45; --accent2:#e7f1ea; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+a { color:var(--accent); }
+.wrap { max-width:920px; margin:0 auto; padding:0 22px; }
+header { border-bottom:1px solid var(--line); background:rgba(251,250,246,.94); }
+header .wrap { display:flex; align-items:center; justify-content:space-between; gap:18px; min-height:64px; }
+.brand { font-weight:700; letter-spacing:.01em; text-decoration:none; color:var(--ink); }
+nav a { margin-left:18px; text-decoration:none; color:var(--muted); font-size:14px; }
+.hero { padding:72px 0 48px; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:700; color:var(--accent); margin:0 0 14px; }
+h1 { font-size:clamp(34px,6vw,58px); line-height:1.05; letter-spacing:-.03em; margin:0 0 20px; max-width:760px; }
+.lede { font-size:19px; color:var(--muted); max-width:700px; margin:0 0 28px; }
+.button { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:13px 20px; border-radius:8px; font-weight:700; }
+.button.secondary { background:transparent; color:var(--accent); border:1px solid var(--accent); margin-left:10px; }
+.meta { margin-top:16px; color:var(--muted); font-size:14px; }
+section { padding:44px 0; border-top:1px solid var(--line); }
+h2 { font-size:28px; letter-spacing:-.02em; margin:0 0 10px; }
+h3 { font-size:19px; margin:0 0 8px; }
+.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:22px; }
+.card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px; }
+.card p { margin:0 0 12px; color:var(--muted); }
+.price { font-weight:700; color:var(--ink); }
+.samples { display:grid; gap:14px; margin-top:22px; }
+.sample { display:flex; justify-content:space-between; gap:18px; align-items:flex-start; background:#fff; border:1px solid var(--line); border-radius:12px; padding:18px 20px; }
+.sample p { margin:4px 0 0; color:var(--muted); }
+.sample-links { white-space:nowrap; font-size:14px; }
+.sample-links a { margin-left:10px; }
+ol.steps { padding-left:22px; margin:18px 0 0; }
+ol.steps li { margin:0 0 10px; }
+.note { background:var(--accent2); border:1px solid #cfe2d6; border-radius:12px; padding:18px 20px; margin-top:20px; }
+ul.limits { color:var(--muted); margin:14px 0 0; padding-left:20px; }
+footer { border-top:1px solid var(--line); padding:28px 0 48px; color:var(--muted); font-size:14px; }
+.sample-page { padding:34px 0 60px; }
+.sample-page h1 { font-size:clamp(28px,4vw,40px); }
+.sample-page table { width:100%; border-collapse:collapse; margin:18px 0 26px; font-size:14px; }
+.sample-page th, .sample-page td { border:1px solid var(--line); padding:8px 9px; text-align:left; vertical-align:top; }
+.sample-page th { background:var(--accent2); }
+.sample-page tr:nth-child(even) td { background:#fff; }
+.sample-page h2 { margin-top:30px; }
+.banner { background:#fff6df; border:1px solid #e9d8a6; border-radius:10px; padding:12px 14px; margin:16px 0 26px; color:#5b4a18; font-size:14px; }
+@media (max-width:760px) { .grid { grid-template-columns:1fr; } .sample { display:block; } .sample-links { margin-top:10px; white-space:normal; } .sample-links a { margin:0 12px 0 0; } .button.secondary { margin:10px 0 0; } }
+</style></head>
+<body>
+<header><div class="wrap"><a class="brand" href="/research/">Swarm Market Reports</a><nav><a href="/research/#samples">Samples</a><a href="/research/#order">Order</a><a href="mailto:danieldixon0410@gmail.com">Email</a></nav></div></header>
+
+<div class="wrap sample-page">
+  <p class="eyebrow">Sample deliverable</p>
+  <h1>Niche Briefing — cross-asset volatility &amp; sentiment</h1>
+  <div class="banner">Illustrative sample. Not paid client work. Built from public sources; recheck every route before contacting an organization.</div>
+  <h1>Niche Briefing — Cross-Asset Volatility &amp; Sentiment</h1>
+<p>Prepared for: Sample review Date: 2026-10-25 04:46 UTC</p>
+<h2>Snapshot</h2>
+<ul><li>Assets covered: BTC-USD, ETH-USD, SOL-USD, XRP-USD, ADA-USD, DOGE-USD, AAPL, NVDA, TSLA.</li><li>Highest annualized volatility: ADA-USD at 54.0%.</li><li>Lowest annualized volatility: AAPL at 15.3%.</li><li>Weakest period move: DOGE-USD at -21.3%.</li><li>Strongest period move: AAPL at 4.4%.</li><li>Average sentiment score: +0.16 on a -1 to +1 scale.</li></ul>
+<h2>Matrix</h2>
+<table><thead><tr><th>Asset</th><th>Price</th><th>Ann. vol</th><th>Short vol</th><th>Period change</th><th>Sentiment</th></tr></thead><tbody>
+<tr><td>BTC-USD</td><td>80,825.59</td><td>21.0%</td><td>26.5%</td><td>-3.8%</td><td>-0.50</td></tr>
+<tr><td>ETH-USD</td><td>2,365.43</td><td>28.2%</td><td>28.6%</td><td>-12.1%</td><td>-0.60</td></tr>
+<tr><td>SOL-USD</td><td>102.5400</td><td>31.0%</td><td>25.3%</td><td>-16.0%</td><td>+0.33</td></tr>
+<tr><td>XRP-USD</td><td>1.3101</td><td>32.3%</td><td>39.3%</td><td>-16.5%</td><td>+1.00</td></tr>
+<tr><td>ADA-USD</td><td>0.207930</td><td>54.0%</td><td>44.9%</td><td>-19.6%</td><td>+0.00</td></tr>
+<tr><td>DOGE-USD</td><td>0.077850</td><td>36.7%</td><td>34.2%</td><td>-21.3%</td><td>-1.00</td></tr>
+<tr><td>AAPL</td><td>347.7250</td><td>15.3%</td><td>14.2%</td><td>+4.4%</td><td>+1.00</td></tr>
+<tr><td>NVDA</td><td>210.9600</td><td>27.7%</td><td>38.5%</td><td>+0.0%</td><td>+0.50</td></tr>
+<tr><td>TSLA</td><td>372.2200</td><td>32.6%</td><td>45.4%</td><td>+3.7%</td><td>+0.71</td></tr>
+</tbody></table>
+<h2>Decisions this can support</h2>
+<ul><li>Which assets deserve a closer look after a volatility expansion.</li><li>Where sentiment and price direction disagree, which may warrant review.</li><li>Which cross-asset pair to use for a risk or hedging discussion.</li></ul>
+<h2>What this is not</h2>
+<ul><li>Not investment advice, a forecast, or a recommendation to trade.</li><li>Not a substitute for the buyer's own risk process.</li><li>Not a claim that any pattern will persist.</li></ul>
+<h2>Method and limits</h2>
+<ul><li>Computed locally from public daily price series and the current sentiment model.</li><li>Sentiment is a model score on a -1 to +1 scale, not a survey of real investors.</li><li>Snapshot only; it does not forecast and does not use non-public information.</li><li>No trade, position, or return is recommended or guaranteed.</li></ul>
+  <p><a href="../">Back to the $149 offer</a></p>
+</div>
+
+<footer><div class="wrap">Public-source research. Not investment, legal, or tax advice. No client, revenue, or outcome is guaranteed. <a href="mailto:danieldixon0410@gmail.com">danieldixon0410@gmail.com</a></div></footer>
+</body></html>
